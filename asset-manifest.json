@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AniketGadge-Portfolio/static/css/main.6348e7d3.css",
-    "main.js": "/AniketGadge-Portfolio/static/js/main.fb14d926.js",
+    "main.js": "/AniketGadge-Portfolio/static/js/main.caf00f26.js",
     "static/media/Project3.jpg": "/AniketGadge-Portfolio/static/media/Project3.8d70e5072e7c729c527c.jpg",
     "static/media/ResumeAniket.pdf": "/AniketGadge-Portfolio/static/media/ResumeAniket.3e073f05736e205ad3ed.pdf",
     "static/media/avatar.png": "/AniketGadge-Portfolio/static/media/avatar.7273873ed185000793af.png",
@@ -23,10 +23,10 @@
     "static/media/logos.svg": "/AniketGadge-Portfolio/static/media/logos.b9fc8ea7c654108e81e95c7b191ba835.svg",
     "index.html": "/AniketGadge-Portfolio/index.html",
     "main.6348e7d3.css.map": "/AniketGadge-Portfolio/static/css/main.6348e7d3.css.map",
-    "main.fb14d926.js.map": "/AniketGadge-Portfolio/static/js/main.fb14d926.js.map"
+    "main.caf00f26.js.map": "/AniketGadge-Portfolio/static/js/main.caf00f26.js.map"
   },
   "entrypoints": [
     "static/css/main.6348e7d3.css",
-    "static/js/main.fb14d926.js"
+    "static/js/main.caf00f26.js"
   ]
 }
