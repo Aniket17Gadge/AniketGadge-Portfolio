@@ -12,8 +12,8 @@ import Contact from './Components/Contact';
 function App() {
   return (
     <>
-    <Routes >
-     <Route path="/AniketGadge-Portfolio" element={<Layout />}> 
+    <Routes>
+     <Route path="/" element={<Layout />}> 
      <Route index element={<Home />} />
      <Route path="about" element={<About />}/>
      <Route path="skills" element={<Skills />}/>
