@@ -1,0 +1,101 @@
+/* Importing google font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.text-shpere {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-left: 300px;
+}
+
+.tagcloud {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.0625em;
+    font-size: 1.3em;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item {
+    color: #00ffffff;
+    text-transform: uppercase;
+}
+
+.tagcloud--item:hover {
+    color: #ff6347;
+}
+
+.skills {
+    display: none;
+}
+
+@media (max-width:720px) {
+
+
+
+    .text-shpere {
+        display: none;
+
+
+    }
+
+    .tagcloud {
+        display: none;
+
+    }
+
+
+}
+
+@media (max-width:720px) {
+    .skills {
+        display: block;
+
+        .skills-container {
+            .Languages {
+
+                flex-direction: row;
+                text-align: center;
+                justify-content: center;
+                max-width: 100%;
+                display: block;
+
+                .skill-card {
+                    align-items: center;
+                    color: rgb(238, 238, 0);
+                    display: inline-block;
+                    
+                    margin-top: 5%;
+                    margin-left: 10px;
+                    margin-right: 15px;
+                    
+
+                    .skill-icon {
+                        font-size: 60px;
+                    }
+                }
+            }
+
+            .skills-section-title {
+                flex-direction: column;
+                font-size: 24px;
+                font-weight: 600;
+                text-align: center;
+                justify-content: center;
+                color: white;
+            }
+
+
+        }
+    }
+
+
+}
